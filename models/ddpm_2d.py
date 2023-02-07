@@ -50,7 +50,7 @@ def ddpm_2d(
 	
 def ddpm_2d_v2(
     model_dir: Optional[str] = None,
-    file_name: str = "ddpm_2d.pth",
+    file_name: str = "ddpm_2d_v2.pth",
     progress: bool = True,
 ):
     if model_dir is None:
